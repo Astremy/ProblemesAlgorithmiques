@@ -1,0 +1,47 @@
+1.
+
+36
+
+=>
+
+36 est un nombre carré et triangulaire
+
+2.
+
+16
+
+=>
+
+16 est un nombre carré
+
+3.
+
+7
+
+=>
+
+7 n'est rien
+
+4.
+
+6
+
+=>
+
+6 est un nombre triangulaire
+
+5.
+
+1
+
+=>
+
+1 est un nombre carré et triangulaire
+
+6.
+
+1056382724880
+
+=>
+
+1056382724880 est un nombre triangulaire

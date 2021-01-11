@@ -1,0 +1,79 @@
+Chiffrement
+-----------
+
+1.
+
+Test.png
+a
+
+=>
+
+Test1.png
+
+2.
+
+Test.png
+bonjour
+
+=>
+
+Test2.png
+
+3.
+
+Test.png
+Nyaaa :p
+
+=>
+
+Test3.png
+
+4.
+
+Test.png
+
+Bonjour !
+Heureuse que vous participiez aux exercices pour ce mois !
+
+La suite du pavé n'est que précisions, qui sont résumés dans les images plus bas.
+
+Les exercices qui seront présentés ce mois sont de l'algorithmie, c'est à dire des problèmes de logique, qu'il va falloir résoudre avec du code. Les exercices sont classés en catégories : Facile, Moyen, et Difficile. Les deux premières sont assez simples, et ne nécessitent normalement pas trop de temps, même pour des gens avec un niveau assez bas. Ils ne font pas intervenir trop de notions avancés d'informatiques.
+
+Les exercices seront donné dans cet ordre : Facile Moyen Facile Moyen Difficile, Facile Moyen Facile Moyen Difficile, et ainsi de suite.
+
+N'essayez pas de nous donnez votre code quand vous l'avez fini, nous ne le corrigerons pas.
+
+Enfin, si vous avez des questions ou des remarques, vous pouvez me mentionner dans le général pour cela, mais évitez d'en abuser.
+
+J'espère que vous aimerez les problèmes, et on se retrouve demain pour le jour 1 !
+
+=>
+
+Test4.png
+
+5.
+
+Test.png
+"" (rien)
+
+=>
+
+Test5.png
+
+6.
+
+Test.png
+!"#$%&\'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+
+=>
+
+Test6.png
+
+Déchiffrement
+-------------
+
+Test7.png
+
+=>
+
+Le contenu de ce fichier

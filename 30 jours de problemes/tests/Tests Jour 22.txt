@@ -1,0 +1,39 @@
+1.
+
+C + O2 > CO2
+
+=>
+
+Valide
+
+2.
+
+CH4 + O2 > H2O + CO2
+
+=>
+
+Non valide
+
+3.
+
+N2 + 3 H2 > 2 NH3
+
+=>
+
+Valide
+
+4.
+
+2 H2O > 2 H2 + O2
+
+=>
+
+Valide
+
+5.
+
+C10H8 + 10 O2 → 10 CO2 + 4 H2O
+
+=>
+
+Non valide

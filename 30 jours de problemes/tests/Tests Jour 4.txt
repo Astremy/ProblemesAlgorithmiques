@@ -1,0 +1,41 @@
+1.
+
+3
+Roman / Marie-Madeleine de La Fayette / La princesse de clèves
+Roman d'anticipation / Jules Vernes / De la terre a la lune
+Roman d'anticipation / Aldous Huxley / Le meilleur des mondes
+.
+Roman d'anticipation / Jules Vernes / De la terre a la lune
+
+=>
+
+Armoire n°2, Position 2
+
+2.
+
+5
+
+Roman d'aventures / Jules Vernes / Cinq Semaines en ballon
+Fantastique / Howard Phillips Lovecraft / L'Appel de Cthulhu
+Fantastique / John Ronald Reuel Tolkien / Le seigneur des anneaux
+Roman policier / Arthur Conan Doyle / Le Chien des Baskerville
+Roman d'aventures / Daniel Defoe / Robinson Crusoé
+.
+Roman d'aventures / Daniel Defoe / Robinson Crusoé
+
+=>
+
+Armoire n°1, Position 1
+
+3.
+
+3
+
+Comédie / Jean-Baptiste Poquelin / Les Fourberies de Scapin
+Comédie / Jean-Baptiste Poquelin / Les Femmes savantes
+Comédie / Jean-Baptiste Poquelin / Le Misanthrope
+.
+Comédie / Jean-Baptiste Poquelin / Les Femmes savantes
+
+=>
+Armoire n°1, Position 2

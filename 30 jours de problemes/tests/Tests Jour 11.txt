@@ -1,0 +1,57 @@
+1.
+
+"""
+# Titre 1
+## Titre plus gros !
+Bonjour à tous
+Comment # allez vous ?
+## Moi # ça va
+#### Nyaaa
+"""
+
+=>
+
+"""
+[Gros|Titre 1]
+[Très gros|Titre plus gros !]
+Bonjour à tous
+Comment [Gros|allez vous ?]
+[Très gros|Moi [Gros|ça va]]
+[Très très très gros|Nyaaa]
+"""
+
+2.
+
+"""
+Ceci est une petite phrase pour tester le non-formatage
+"""
+
+=>
+
+"""
+Ceci est une petite phrase pour tester le non-formatage
+"""
+
+3.
+
+"""
+################ ?
+"""
+
+=>
+
+"""
+[Très très très très très très très très très très très très très très très gros|?]
+"""
+
+4.
+
+"""
+# ## # ## ### # A
+"""
+
+=>
+
+"""
+[Gros|[Très gros|[Gros|[Très gros|[Très très gros|[Gros|A]]]]]]
+"""

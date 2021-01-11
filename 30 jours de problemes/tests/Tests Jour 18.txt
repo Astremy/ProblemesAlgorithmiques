@@ -1,0 +1,53 @@
+1.
+
+Bonjour à tous, je m'appelle Lucie, et je fait les exercices du jour. Est-ce que vous vous faites des exemples tout les jours de phrases, de situations, tout ce genre de truc. A force cela deviens fatiguant, je vous le dit ! Un exemple, ça va. Cinq exemples, passe. Cinq tout les jours pendant un mois c'est compliqué.
+
+=>
+
+2
+
+Bonjour à tous, je m'appelle Lucie, et je fait les exercices du jour. Est-ce que vous vous faites des exemples tout les jours de phrases, de situations, tout ce genre de truc. A force cela deviens
+
+fatiguant, je vous le dit ! Un exemple, ça va. Cinq exemples, passe. Cinq tout les jours pendant un mois c'est compliqué.
+
+2.
+
+Connaissez vous l'IRC ? L'IRC est un protocol de communication pour faire des tchats en ligne.. ça permet de faire des trucs un peu comme discord (en moins avancé). C'est cool à implémenter, après faut se manger des RFC à n'en plus pouvoir, mais bon.. On as réussi à faire un petit serveur avec les fonctionnalités basiques, et on va essayer de le refaire en live :p. Bref, peu de gens lisent les exemples, donc personne ne saura ^^. De toute façon c'est même pas sur ce serveur. Juste pour dire que j'était contente, je fait des trucs intéressants (que seul moi trouve intéressant, mais intéressants)
+
+=>
+
+4
+
+Connaissez vous l'IRC ? L'IRC est un protocol de communication pour faire des tchats en ligne.. ça permet de faire des trucs un peu comme discord (en moins avancé). C'est cool à implémenter, après
+
+faut se manger des RFC à n'en plus pouvoir, mais bon.. On as réussi à faire un petit serveur avec les fonctionnalités basiques, et on va essayer de le refaire en live :p. Bref, peu de gens lisent les
+
+exemples, donc personne ne saura ^^. De toute façon c'est même pas sur ce serveur. Juste pour dire que j'était contente, je fait des trucs intéressants (que seul moi trouve intéressant, mais
+
+intéressants)
+
+3.
+
+Fusce dignissim, lectus eget sollicitudin eleifend, nisl leo malesuada enim, eget euismod purus magna vel nulla. Etiam sit amet bibendum sapien, et tristique risus. Aliquam bibendum ipsum non dolor interdum dapibus. Vivamus eget vestibulum mauris, a gravida mi. Phasellus scelerisque ante at ipsum accumsan, ut lobortis massa accumsan. Quisque placerat, orci et dapibus ultrices, lacus leo fermentum velit, vel molestie tortor enim sollicitudin lorem. Morbi nec fringilla nisl, a viverra massa. Sed at augue a urna faucibus pellentesque. Etiam vestibulum nulla vitae egestas efficitur. Nam condimentum finibus blandit. Vivamus congue lacus a nibh luctus congue.
+
+=>
+
+4
+
+Fusce dignissim, lectus eget sollicitudin eleifend, nisl leo malesuada enim, eget euismod purus magna vel nulla. Etiam sit amet bibendum sapien, et tristique risus. Aliquam bibendum ipsum non dolor
+
+interdum dapibus. Vivamus eget vestibulum mauris, a gravida mi. Phasellus scelerisque ante at ipsum accumsan, ut lobortis massa accumsan. Quisque placerat, orci et dapibus ultrices, lacus leo
+
+fermentum velit, vel molestie tortor enim sollicitudin lorem. Morbi nec fringilla nisl, a viverra massa. Sed at augue a urna faucibus pellentesque. Etiam vestibulum nulla vitae egestas efficitur. Nam
+
+condimentum finibus blandit. Vivamus congue lacus a nibh luctus congue.
+
+4.
+
+C'est bien de raconter sa vie..
+
+=>
+
+1
+
+C'est bien de raconter sa vie..
