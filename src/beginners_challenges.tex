@@ -1,0 +1,284 @@
+\documentclass[12pt]{article}
+
+\usepackage{hyperref}
+\usepackage[french]{babel}
+\usepackage[top=2cm, bottom=2cm, left=4cm, right=4cm]{geometry}
+\usepackage{graphicx}
+
+\usepackage[fleqn]{amsmath}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+
+\title{Problemes Pour les Débutants}
+\author{Astremy}
+\date{}
+
+\setcounter{secnumdepth}{0}
+
+\begin{document}
+
+\pagenumbering{gobble}
+\maketitle
+
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+
+\section{Informations}
+
+Les problemes sont des problemes ne demandant que quelques minutes en général pour être résolus.Ils sont classé par difficulté. Le but serait de les résoudre le plus rapidement possible.\\
+De plus, un bon niveau dans le langage n'est pas forcément demandé, les problemes Faciles ou moyens sont donc accessibles avec assez de logique algorithmique.
+
+\section{Exercices}
+
+\subsection{Facile}
+
+\subsubsection{Problème Numéro 1}
+
+Vous vous décidez a lire un livre. Pour cela, vous vous donnez un objectif : Commencer par lire un nombre \textbf{n} de page, et chaque jour augmenter le nombre de page que vous lisez de \textbf{m}. Calculer le nombre total de pages que vous aurez lu au bout d'un nombre \textbf{x} de jour.
+\\\\
+Exemple :\\
+Si vous lisez 4 pages le premier jour, et augmentez de 3 pages chaque jour. Sur 5 jour vous aurez lu :\\
+Pages du premier jour + Pages du deuxième jour + Pages du troisième jour + Pages du quatrième jour + Pages du cinquième jour.\\
+=\textgreater\\
+4 + 7 + 10 + 13 + 16 = 50 pages.
+
+\subsubsection{Problème Numéro 2}
+
+Votre ami pense avoir trouvé un code secret caché dans un texte. Il vous demande si vous pouvez lui trouver la première lettre qui se répète dans une phrase.\\
+On ne distingue pas les majuscules des minuscules, et les caractères autres que des lettres (ex : espace) ne comptent pas.
+\\\\
+Exemple :\\
+"\textbf{N}e jau\textbf{n}is pas au printemps" : La première lettre qui se répète est le n.\\
+"Si\textbf{r} Jean o\textbf{r}donne de se lever" : La première lettre qui se répète est le r.\\
+"\$\_\$. Il \textbf{a}v\textbf{a}it les yeux pleins d'argent" : La première lettre qui se répète est le a, le \$ n'étant pas une lettre.
+
+\subsubsection{Problème Numéro 3}
+
+Vous vous lancez dans un projet ambicieux. Avant cela, vous aimeriez avoir un aperçu global du temps que cela va mettre. Vous avez ainsi établi le temps que vous prendrai chaque tache, mais cela est très peu organisé.\\
+Soit 5 temps en entrée, sous soit le format \textbf{x}h\textbf{y}min, soit \textbf{y}min, soit \textbf{x}h, sortez les durées dans un ordre décroissant.
+\\\\
+Exemple :\\
+3h8min\\
+47min\\
+12h19min\\
+59min\\
+7h\\
+=\textgreater\\
+12h19min\\
+7h\\
+3h8min\\
+59min\\
+47min\\
+
+\subsubsection{Problème Numéro 4}
+
+Vous jouez a une version du \href{https://fr.wikipedia.org/wiki/Simon_(jeu)}{Simon} un peu différente. En effet, au lieu de devoir appuyer sur la couleur affichée, vous devez appyer sur celle d'à coté (dans le sens horaire). Ainsi, au lieu d'appuyer sur le Vert il faut appuyer sur le Rouge, au lieu du Rouge sur le Bleu, au lieu du Bleu sur le Jaune et au lieu du Jaune sur le Vert.\\
+On vous donne une suite de couleur, donnez le bon ordre a appuyer.
+\\\\
+Exemple :\\
+Vert Rouge Vert Jaune Bleu\\
+=\textgreater\\
+Rouge Bleu Rouge Vert Jaune
+
+\subsubsection{Problème Numéro 5}
+
+Vous êtes patron d'un restaurant. A la fin de chaque repas, les clients peuvent noter leur serveur. Vous cherchez a savoir quel serveur a obtenu la meilleure moyenne pour en faire l'employé du mois.\\
+Ainsi, étant donné, pour 5 employés leur nom puis chacune de leur note séparé par un espace, donnez le nom de l'employé du mois.
+\\\\
+Exemple :\\
+Thifanie 5 4 3 4\\
+Rémy 5\\
+Léo 9 3 2\\
+Lucie 5 7\\
+=\textgreater\\
+Lucie
+\\\\
+Avec une moyenne de 6, Lucie est l'employée du mois (4 pour Thifanie, 5 pour Rémy et 4.33 pour Léo)
+
+\subsubsection{Problème Numéro 6}
+
+Ranger ses chaussettes est toujours le pire travail qui soit. On ne sais pas si l'on en as perdu une dans tout le tas que l'on as.\\
+Etant donné une chaine de caractère avec une lettre correspondant à une chaussette, trouvez la paire de chaussette incomplète.
+\\\\
+Exemple :\\
+aabbcep\textbf{d}cep\\
+=\textgreater\\
+d
+\\\\
+La chaussette d étant seule, c'est celle dont la paire est incomplète. 
+
+\subsection{Moyen}
+
+\subsubsection{Problème Numéro 1}
+
+Vous vous êtes retrouvé par magie en l'an 50 avant J-C. Au final, vous vous en sortez assez bien, en tant que marchand.\\
+Seulement, quelque-chose vous pose encore un problème : Les calculs. En effet, tout les nombres sont écris en chiffres romains, de cette façon :\\
+1 = I\\
+5 = V\\
+10 = X\\
+50 = L\\
+100 = C\\
+500 = D\\
+1000 = M\\
+Ainsi, l'on compte ainsi :\\
+1 = I\\
+2 = II\\
+3 = III\\
+4 = IV\\
+5 = V\\
+6 = VI\\
+7 = VII\\
+8 = VIII\\
+9 = IX\\
+10 = X\\
+20 = XX\\
+30 = XXX\\
+40 = XL\\
+50 = L\\
+60 = LX\\
+...\\
+Ainsi, par exemple, 549 s'écrira : DXLIX : D = 500, XL = 40, IX = 9.\\
+Vous devez faire la somme de deux nombres en chiffres romains, et mettre la solution elle aussi en chiffre romains.
+\\\\
+Exemple :\\
+CCCXLVII\\
+CCXCIX\\
+=\textgreater\\
+DCXLVI
+\\\\
+En effet, 347 + 299 = 646
+
+\subsubsection{Problème Numéro 2}
+
+Vous travaillez dans les services secrets. Pour chiffrer vos message, vous procédez comme suit :\\
+Vous prenez le message a chiffrer \textbf{message} et la clé de chiffrement \textbf{key}.\\
+Ensuite, vous prenez la valeur binaire Ascii de chaque caractère (7 bits).\\
+\includegraphics[width=10cm]{ASCII.png}\\
+Pour chaque bit du message, lui associer un bit de la clé (Si la clé est plus petite que le message, recommencez au début. Exemple : chiffrer "100111" avec "10", c'est comme chiffrer "100111" avec "101010".) ainsi : Si les deux bits sont des 1, le bit de sortie sera 0, si les deux bits sont des 0, le bit de sortie sera 0, et si un des bit est un 1 et l'autre 0, le bit de sortie sera à 1.\\
+Ensuite, composez le message de sortie avec le tableau Ascii.\\
+Exemple :\\
+1.\\
+.test.\\
+SALUTO\\
+=\textgreater\\
+\}5)\& a
+\\\\
+2.\\
+Hello\\
+.\\
+=\textgreater\\
+fKBBA
+
+\subsubsection{Problème Numéro 3}
+
+Vous aimez vous lancer souvent des petits défis. Aujourd'hui, vous souhaitez voir tout les sites que vous visitez dans la journée.\\
+Etant donné un nombre \textbf{n} d'url, sortez le nom de domaine de chacun.\\
+Si le fichier est un fichier local, afficher "Fichier Local".\\
+\includegraphics[width=15cm]{url_problem.png}
+\\\\
+Exemple :\\
+6\\
+http://test.com\\
+file:///D:/Gravendev/test.txt\\
+https://www.youtube.com\\
+help.api.netflix.fr\\
+C:/user/test.fr/machin.html\\
+http://webtest.repl.co/connect?form=hello\\
+=\textgreater\\
+test.com\\
+Fichier Local\\
+youtube.com\\
+netflix.fr\\
+Fichier Local\\
+repl.co
+
+\subsubsection{Problème Numéro 4}
+
+Votre ami vous donne un journal en vous disant qu'il a entouré une partie interessante dedans.\\
+Le journal est représenté comme une suite de caractères sur plusieurs colonnes, de x par x cases.\\
+Déterminer quel charactères sont entourés.
+\\\\
+Exemple :\\
+5\\
+efepq\\
+pbbbp\\
+mbabs\\
+pbbbr\\
+brdsa\\
+=\textgreater\\
+a\\
+Dans cet exemple, l'on voit bien que le caractère entouré est le a.\\
+6\\
+efepqm\\
+pvvvne\\
+mvavtv\\
+pvqvqz\\
+bvvvaw\\
+rtgefc\\
+=\textgreater\\
+aq
+
+\subsection{Dur}
+
+\subsubsection{Problème Numéro 1}
+
+A la fin d'une partie d'échec, il ne reste au plus aux deux joueurs que leurs dames, fous et tours (hormis le roi).\\
+Pour chaque case, un R symbolise le roi, un D une dame, un T une tour et un F un fou.\\
+Les lettres majuscules sont pour les blancs, tandis que les lettres minuscules sont pour les noirs.\\
+Etant donnée une grille d'échec donnée, déterminer qui à mis en échec et mat l'autre (il y a toujours une seule solution).\\
+On considère qu'il n'existe pas de situation ou on peut s'en sortir si une pièce en mange une autre.
+\\\\
+Exemple :\\
+1.\\
+..R....t\\
+.......t\\
+.......r\\
+........\\
+........\\
+........\\
+........\\
+........\\
+=\textgreater\\
+Noirs\\
+Dans cet exemple, il est clair que les noirs ont gagné.\\
+2.\\
+...t....\\
+...R....\\
+.......t\\
+f...F...\\
+........\\
+....T...\\
+...T.d.r\\
+.....D..\\
+=\textgreater\\
+Blanc\\
+Dans cet exemple, le roi noir est en échec et mat, tandis que le roi blanc aurais pu aller sur la case a sa droite.
+
+\subsubsection{Problème Numéro 2}
+
+Un nouveau langage informatique est apparu :\\
+Son principe est très simple :\\
+Pour chaque "segment" d'instruction :\\
+On initialise le compteur à 1, et a chaque instruction, on multiplie le compeur par deux.\\
+Ensuite, si l'instruction est "-", on enlève 1 au compteur, sinon, on ne bouge pas.\\
+Un segment d'instruction dure 7 instructions. A chaque fin de segment, la console donne le caractère équivalent moins 1 en valeur ascii.
+\\\\
+Exemple :\\
+Voici un segment :\\
+-=--=-=\\
+Au début : e=1\\
+Première instruction : - donc e=(2*e)-1 = 1\\
+Deuxième instruction : = donc e = 2*e = 2\\
+Troisième instruction : - donc e = (2*e)-1 = 3\\
+Quatrième instruction : - donc e = (2*e)-1 = 5\\
+Cinquième instruction : = donc e = 2*e = 10\\
+Sixième instruction : - donc e = (2*e)-1 = 19\\
+Septième instruction : = donc e = 2*e = 38\\
+La sortie sera donc la valeur ascii de e-1 : 37.\\
+Ainsi, le caractère en sortie sera "\%".
+\\\\
+Vous devrez non seulement faire un interpréteur de ce langage, mais aussi créer un programme qui, avec une chaine de caractère donnée, sort le programme dans ce langage qu'il faut mettre en entrée pour obtenir la chaine de caractère.
+
+\end{document}
